@@ -1,0 +1,276 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 31 May 2019 18:26:13 at http://192.168.25.244/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://192.168.25.244/ -O1 "C:\My Web Sites\silver reactor" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:49:12	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/favicon.ico (from 192.168.25.244/)
+18:49:12	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/favicon.ico
+19:00:03	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/libs/jquery-3.2.1.min.js (from 192.168.25.244/)
+19:00:03	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/libs/jquery-ui.js (from 192.168.25.244/)
+19:00:03	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/libs/timepicker.js (from 192.168.25.244/)
+19:00:03	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/libs/Chart.min.js (from 192.168.25.244/)
+19:00:03	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/libs/jquery-ui.js
+19:00:03	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/libs/timepicker.js
+19:00:03	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/libs/Chart.min.js
+19:00:03	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/libs/jquery-3.2.1.min.js
+19:02:03	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/myversion.js (from 192.168.25.244/)
+19:02:03	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/myversion.js
+19:02:14	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/controlsocket.js (from 192.168.25.244/)
+19:02:14	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/controlsocket.js
+19:02:18	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/data/data.js (from 192.168.25.244/)
+19:02:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/data/data.js
+19:02:19	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/data/datatools.js (from 192.168.25.244/)
+19:02:19	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/data/datatools.js
+19:04:03	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/data/systemdata.js (from 192.168.25.244/)
+19:04:03	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/data/systemdata.js
+19:04:14	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/data/sensordata.js (from 192.168.25.244/)
+19:04:14	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/data/sensordata.js
+19:04:19	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/data/actuatordata.js (from 192.168.25.244/)
+19:04:19	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/data/controldata.js (from 192.168.25.244/)
+19:04:19	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/data/actuatordata.js
+19:04:19	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/data/controldata.js
+19:06:03	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/data/lookup.js (from 192.168.25.244/)
+19:06:03	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/data/lookup.js
+19:06:17	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/navigationmanager.js (from 192.168.25.244/)
+19:06:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/navigationmanager.js
+19:06:20	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/espfmanager.js (from 192.168.25.244/)
+19:06:20	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/updatemanager.js (from 192.168.25.244/)
+19:06:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/espfmanager.js
+19:06:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/updatemanager.js
+19:08:04	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/toppanelmanager.js (from 192.168.25.244/)
+19:08:04	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/toppanelmanager.js
+19:08:17	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/overlaymanager.js (from 192.168.25.244/)
+19:08:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/overlaymanager.js
+19:08:20	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/alarmmanager.js (from 192.168.25.244/)
+19:08:20	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/usermanager.js (from 192.168.25.244/)
+19:08:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/alarmmanager.js
+19:08:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/usermanager.js
+19:10:04	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/imagemanager.js (from 192.168.25.244/)
+19:10:04	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/imagemanager.js
+19:10:17	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/rightpanel/rightpanelwindow.js (from 192.168.25.244/)
+19:10:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/rightpanel/rightpanelwindow.js
+19:10:20	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/rightpanel/rightpaneloutput.js (from 192.168.25.244/)
+19:10:20	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/rightpanel/rightpanelsensors.js (from 192.168.25.244/)
+19:10:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/rightpanel/rightpaneloutput.js
+19:10:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/rightpanel/rightpanelsensors.js
+19:12:04	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/rightpanel/rightpanelactuators.js (from 192.168.25.244/)
+19:12:04	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/rightpanel/rightpanelactuators.js
+19:12:17	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/windows/windowmanager.js (from 192.168.25.244/)
+19:12:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/windows/windowmanager.js
+19:12:20	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/windows/windowwithtabs.js (from 192.168.25.244/)
+19:12:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/windows/windowwithtabs.js
+19:12:22	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/windows/subwindow.js (from 192.168.25.244/)
+19:12:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/windows/subwindow.js
+19:14:04	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/windows/windowitems.js (from 192.168.25.244/)
+19:14:04	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/windows/windowitems.js
+19:14:17	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/windows/windowtools.js (from 192.168.25.244/)
+19:14:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/windows/windowtools.js
+19:14:22	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/windows/synoptic.js (from 192.168.25.244/)
+19:14:22	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/windows/login.js (from 192.168.25.244/)
+19:14:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/windows/synoptic.js
+19:14:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/windows/login.js
+19:16:07	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/windows/networksettings.js (from 192.168.25.244/)
+19:16:07	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/windows/networksettings.js
+19:16:17	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/main.js (from 192.168.25.244/)
+19:16:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/main.js
+19:16:22	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/inoctimer.png (from 192.168.25.244/)
+19:16:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/inoctimer.png
+19:16:24	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/deviceinfo.png (from 192.168.25.244/)
+19:16:24	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/deviceinfo.png
+19:18:07	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/Logo.png (from 192.168.25.244/)
+19:18:07	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/Logo.png
+19:18:17	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/favicon.ico (from 192.168.25.244/)
+19:18:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/favicon.ico
+19:18:22	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/stylesheets/images/ui-icons_444444_256x240.png (from 192.168.25.244/stylesheets/jquery-ui.css)
+19:18:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/stylesheets/images/ui-icons_444444_256x240.png
+19:18:24	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/stylesheets/images/ui-icons_555555_256x240.png (from 192.168.25.244/stylesheets/jquery-ui.css)
+19:18:24	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/stylesheets/images/ui-icons_555555_256x240.png
+19:20:07	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/stylesheets/images/ui-icons_ffffff_256x240.png (from 192.168.25.244/stylesheets/jquery-ui.css)
+19:20:07	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/stylesheets/images/ui-icons_ffffff_256x240.png
+19:20:17	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/stylesheets/images/ui-icons_777620_256x240.png (from 192.168.25.244/stylesheets/jquery-ui.css)
+19:20:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/stylesheets/images/ui-icons_777620_256x240.png
+19:20:22	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/stylesheets/images/ui-icons_cc0000_256x240.png (from 192.168.25.244/stylesheets/jquery-ui.css)
+19:20:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/stylesheets/images/ui-icons_cc0000_256x240.png
+19:20:24	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/stylesheets/images/ui-icons_777777_256x240.png (from 192.168.25.244/stylesheets/jquery-ui.css)
+19:20:24	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/stylesheets/images/ui-icons_777777_256x240.png
+19:22:07	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/control/play_white.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:22:07	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/control/play_white.png
+19:22:17	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/control/pause_white.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:22:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/control/pause_white.png
+19:22:22	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/control/reset_white.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:22:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/control/reset_white.png
+19:22:24	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/control/play_hover.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:22:24	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/control/play_hover.png
+19:24:07	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/control/pause_hover.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:24:07	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/control/pause_hover.png
+19:24:17	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/control/reset_hover.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:24:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/control/reset_hover.png
+19:24:22	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/control/play_active.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:24:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/control/play_active.png
+19:24:24	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/control/pause_active.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:24:24	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/control/pause_active.png
+19:26:07	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/control/reset_active.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:26:07	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/control/reset_active.png
+19:26:17	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/libs/jquery-3.2.1.min.js (from 192.168.25.244/)
+19:26:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/libs/jquery-3.2.1.min.js
+19:26:22	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/libs/jquery-ui.js (from 192.168.25.244/)
+19:26:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/libs/jquery-ui.js
+19:26:24	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/libs/timepicker.js (from 192.168.25.244/)
+19:26:24	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/libs/timepicker.js
+19:28:07	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/libs/Chart.min.js (from 192.168.25.244/)
+19:28:07	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/libs/Chart.min.js
+19:28:21	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/myversion.js (from 192.168.25.244/)
+19:28:21	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/myversion.js
+19:28:25	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/controlsocket.js (from 192.168.25.244/)
+19:28:25	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/controlsocket.js
+19:28:29	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/data/data.js (from 192.168.25.244/)
+19:28:29	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/data/data.js
+19:30:15	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/data/datatools.js (from 192.168.25.244/)
+19:30:15	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/data/datatools.js
+19:30:21	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/data/systemdata.js (from 192.168.25.244/)
+19:30:21	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/data/systemdata.js
+19:30:25	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/data/sensordata.js (from 192.168.25.244/)
+19:30:25	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/data/sensordata.js
+19:30:29	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/data/actuatordata.js (from 192.168.25.244/)
+19:30:29	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/data/actuatordata.js
+19:32:15	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/data/controldata.js (from 192.168.25.244/)
+19:32:15	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/data/controldata.js
+19:32:22	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/data/lookup.js (from 192.168.25.244/)
+19:32:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/data/lookup.js
+19:32:28	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/navigationmanager.js (from 192.168.25.244/)
+19:32:28	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/navigationmanager.js
+19:32:29	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/espfmanager.js (from 192.168.25.244/)
+19:32:29	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/espfmanager.js
+19:34:16	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/updatemanager.js (from 192.168.25.244/)
+19:34:16	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/updatemanager.js
+19:34:23	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/toppanelmanager.js (from 192.168.25.244/)
+19:34:23	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/toppanelmanager.js
+19:34:28	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/overlaymanager.js (from 192.168.25.244/)
+19:34:28	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/overlaymanager.js
+19:34:29	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/alarmmanager.js (from 192.168.25.244/)
+19:34:29	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/alarmmanager.js
+19:36:16	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/usermanager.js (from 192.168.25.244/)
+19:36:16	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/usermanager.js
+19:36:24	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/imagemanager.js (from 192.168.25.244/)
+19:36:24	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/imagemanager.js
+19:36:28	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/rightpanel/rightpanelwindow.js (from 192.168.25.244/)
+19:36:28	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/rightpanel/rightpanelwindow.js
+19:36:30	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/rightpanel/rightpaneloutput.js (from 192.168.25.244/)
+19:36:30	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/rightpanel/rightpaneloutput.js
+19:38:16	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/rightpanel/rightpanelsensors.js (from 192.168.25.244/)
+19:38:16	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/rightpanel/rightpanelsensors.js
+19:38:24	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/rightpanel/rightpanelactuators.js (from 192.168.25.244/)
+19:38:24	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/rightpanel/rightpanelactuators.js
+19:38:28	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/windows/windowmanager.js (from 192.168.25.244/)
+19:38:28	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/windows/windowmanager.js
+19:38:30	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/windows/windowwithtabs.js (from 192.168.25.244/)
+19:38:30	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/windows/windowwithtabs.js
+19:40:17	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/windows/subwindow.js (from 192.168.25.244/)
+19:40:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/windows/subwindow.js
+19:40:24	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/windows/windowitems.js (from 192.168.25.244/)
+19:40:24	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/windows/windowitems.js
+19:40:28	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/windows/windowtools.js (from 192.168.25.244/)
+19:40:28	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/windows/windowtools.js
+19:40:31	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/windows/synoptic.js (from 192.168.25.244/)
+19:40:31	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/windows/synoptic.js
+19:42:17	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/windows/login.js (from 192.168.25.244/)
+19:42:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/windows/login.js
+19:42:27	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/windows/networksettings.js (from 192.168.25.244/)
+19:42:27	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/windows/networksettings.js
+19:42:29	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/Scripts/main.js (from 192.168.25.244/)
+19:42:29	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/Scripts/main.js
+19:42:31	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/inoctimer.png (from 192.168.25.244/)
+19:42:31	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/inoctimer.png
+19:44:18	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/deviceinfo.png (from 192.168.25.244/)
+19:44:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/deviceinfo.png
+19:44:27	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/Logo.png (from 192.168.25.244/)
+19:44:27	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/Logo.png
+19:44:29	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/images/favicon.ico (from 192.168.25.244/)
+19:44:29	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/stylesheets/images/ui-icons_444444_256x240.png (from 192.168.25.244/stylesheets/jquery-ui.css)
+19:44:29	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/stylesheets/images/ui-icons_444444_256x240.png
+19:44:31	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/stylesheets/images/ui-icons_555555_256x240.png (from 192.168.25.244/stylesheets/jquery-ui.css)
+19:44:31	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/stylesheets/images/ui-icons_555555_256x240.png
+19:46:18	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/stylesheets/images/ui-icons_ffffff_256x240.png (from 192.168.25.244/stylesheets/jquery-ui.css)
+19:46:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/stylesheets/images/ui-icons_ffffff_256x240.png
+19:46:27	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/stylesheets/images/ui-icons_777620_256x240.png (from 192.168.25.244/stylesheets/jquery-ui.css)
+19:46:27	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/stylesheets/images/ui-icons_777620_256x240.png
+19:46:29	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/stylesheets/images/ui-icons_cc0000_256x240.png (from 192.168.25.244/stylesheets/jquery-ui.css)
+19:46:29	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/stylesheets/images/ui-icons_cc0000_256x240.png
+19:46:31	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/stylesheets/images/ui-icons_777777_256x240.png (from 192.168.25.244/stylesheets/jquery-ui.css)
+19:46:31	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/stylesheets/images/ui-icons_777777_256x240.png
+19:48:18	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/control/play_white.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:48:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/control/play_white.png
+19:48:27	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/control/pause_white.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:48:27	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/control/pause_white.png
+19:48:29	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/control/reset_white.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:48:29	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/control/reset_white.png
+19:48:31	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/control/play_hover.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:48:31	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/control/play_hover.png
+19:50:18	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/control/pause_hover.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:50:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/control/pause_hover.png
+19:50:27	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/control/reset_hover.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:50:27	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/control/reset_hover.png
+19:50:29	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/control/play_active.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:50:29	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/control/play_active.png
+19:50:31	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/control/pause_active.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:50:31	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/control/pause_active.png
+19:52:18	Warning: 	Retry after error -2 (Receive Time Out) at link 192.168.25.244/images/control/reset_active.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:52:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 192.168.25.244/images/control/reset_active.png
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/libs/jquery-3.2.1.min.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/libs/jquery-ui.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/libs/timepicker.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/libs/Chart.min.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/myversion.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/controlsocket.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/data/data.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/data/datatools.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/data/systemdata.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/data/sensordata.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/data/actuatordata.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/data/controldata.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/data/lookup.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/navigationmanager.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/espfmanager.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/updatemanager.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/toppanelmanager.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/overlaymanager.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/alarmmanager.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/usermanager.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/imagemanager.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/rightpanel/rightpanelwindow.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/rightpanel/rightpaneloutput.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/rightpanel/rightpanelsensors.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/rightpanel/rightpanelactuators.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/windows/windowmanager.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/windows/windowwithtabs.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/windows/subwindow.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/windows/windowitems.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/windows/windowtools.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/windows/synoptic.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/windows/login.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/windows/networksettings.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/Scripts/main.js (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/images/inoctimer.png (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/images/deviceinfo.png (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/images/Logo.png (from 192.168.25.244/)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/stylesheets/images/ui-icons_444444_256x240.png (from 192.168.25.244/stylesheets/jquery-ui.css)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/stylesheets/images/ui-icons_555555_256x240.png (from 192.168.25.244/stylesheets/jquery-ui.css)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/stylesheets/images/ui-icons_ffffff_256x240.png (from 192.168.25.244/stylesheets/jquery-ui.css)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/stylesheets/images/ui-icons_777620_256x240.png (from 192.168.25.244/stylesheets/jquery-ui.css)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/stylesheets/images/ui-icons_cc0000_256x240.png (from 192.168.25.244/stylesheets/jquery-ui.css)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/stylesheets/images/ui-icons_777777_256x240.png (from 192.168.25.244/stylesheets/jquery-ui.css)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/images/control/play_white.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/images/control/pause_white.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/images/control/reset_white.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/images/control/play_hover.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/images/control/pause_hover.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:52:27	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/images/control/reset_hover.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:52:29	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/images/control/play_active.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:52:31	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/images/control/pause_active.png (from 192.168.25.244/stylesheets/toppanel.css)
+19:54:18	Error: 	"Receive Time Out" (-2) after 2 retries at link 192.168.25.244/images/control/reset_active.png (from 192.168.25.244/stylesheets/toppanel.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 hours 28 minutes 5 seconds : 174 links scanned, 14 files written (88100 bytes overall) [3151636 bytes received at 596 bytes/sec], 1.0 requests per connection
+(53 errors, 212 warnings, 0 messages)

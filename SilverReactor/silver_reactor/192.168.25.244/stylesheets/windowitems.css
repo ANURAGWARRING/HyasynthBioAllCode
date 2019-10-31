@@ -1,0 +1,1474 @@
+.windowContent .row
+{
+    display: table;
+    color: #008a7e;
+    background-color: #fff;
+    margin-top:5px;
+    margin-bottom:5px;
+    width:100%;
+    position: relative;
+    height: 40px;
+}
+
+.windowContent .attentionGreen
+{
+    border: 2px solid rgba(0, 135, 68, 1);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.windowContent .attentionYellow
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid rgba(255, 166, 0, 1);
+}
+
+.windowContent .attentionRed
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 2px solid red;
+}
+
+.windowContent .titleBar
+{
+    height: 20px;
+    margin-bottom:-2px;
+    text-align:center;
+    padding-top:3px;
+}
+
+.windowContent .titleBarLeft
+{
+    height: 20px;
+    margin-bottom:-2px;
+    /*text-align:center;*/
+    padding-top:3px;
+    padding-left: 5px;
+}
+
+.windowContent .noMarginTop
+{
+    margin-top:0px
+}
+
+.windowContent .row .item
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.windowContent .button
+{
+    text-align: center;
+
+}
+.windowContent .text
+{
+    padding: 5px;
+    width: 35%;
+}
+
+
+
+.windowContent .toggleText
+{
+    padding: 5px;
+    /*width: 79%;*/
+    width: 64%;
+}
+
+.windowContent .buttonGroupText
+{
+    padding: 5px;
+    width: 43%;
+}
+
+
+
+.windowContent .selectText
+{
+    padding: 5px;
+    width: 45%;
+}
+
+.windowContent .error
+{
+    padding: 5px;
+    width: 100%;
+    color: red;
+}
+
+.windowContent .errorMessage
+{
+    padding: 5px;
+    width: 100%;
+    color: red;
+    text-align: center;
+}
+
+.windowContent .succesMessage
+{
+    padding: 5px;
+    width: 100%;
+    color: green;
+    text-align: center;
+}
+
+.windowContent .message
+{
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.windowContent .messageLeft
+{
+    padding: 5px;
+    width: 100%;
+    /*text-align: center;*/
+}
+
+.windowContent .messageRight
+{
+    padding: 5px;
+    width: 100%;
+    text-align: right;
+}
+
+.windowContent .errorMessageLeft
+{
+    padding: 5px;
+    width: 100%;
+    color: red;
+    /*text-align: center;*/
+}
+
+.windowContent .inputField
+{
+    width:25%;
+    padding-right: 10px;
+}
+
+.windowContent .textInputBig
+{
+    padding: 5px;
+    width:38%;
+}
+
+.windowContent .inputFieldBig
+{
+    width:44.5%;
+    padding-right: 31px;
+}
+
+.windowContent .inputFieldBig input
+{
+    text-align: left  !important;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.windowContent .disabledInputField
+{
+    width:25%;
+    padding-right: 10px;
+}
+
+.windowContent .unit
+{
+    width:15%;
+    padding-left: 10px;
+
+    /*padding: 10px;*/
+}
+
+.windowContent .mfcStatus
+{
+    width:22%;
+    padding-left: 10px;
+
+    /*padding: 10px;*/
+}
+
+.windowContent input[type='text'], input[type='password']
+{
+    font-size: 20px;
+    width: 100%;
+    padding-right: 6px;
+    border: 1px solid #808080;
+    height: 27px;
+    text-align: right;
+    border-radius: 3px;
+}
+
+
+
+.valid
+{
+    border: 1px solid #00F000 !important;
+}
+.valid:focus
+{
+    outline-color: #00FF00;
+}
+.invalid
+{
+    border: 1px solid #FF0000 !important;
+}
+.invalid:focus
+{
+    outline-color: #FF0000;
+}
+
+.windowContent hr
+{
+    border: 1px solid #bfdddb;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.windowContent hr.space
+{
+    border: 0px;
+}
+
+.windowContent .limits
+{
+    /*display: inline;*/
+    font-size: 12px;
+}
+.windowContent .limitNames
+{
+    /*display: inline;*/
+    font-size: 12px;
+    width: 5%;
+}
+
+.windowContent .toggle
+{
+    height:10px;
+}
+
+.onoffswitch {
+    position: relative;
+    width: 110px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select: none;
+}
+
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.1s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 29px;
+    padding: 0;
+    line-height: 29px;
+    font-size: 14px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.onoffswitch-inner:before {
+    content: "Enabled";
+    padding-left: 10px;
+    background-color: #3FB2A9;
+    color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "Disabled";
+    padding-right: 10px;
+    background-color: #CCCCCC;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.onoffswitch-inner-on:before {
+    content: "On"
+}
+
+.onoffswitch-inner-on:after {
+    content: "Off"
+}
+
+.onoffswitch-inner-start:before {
+    content: "Start"
+}
+
+.onoffswitch-inner-start:after {
+    content: "Stop"
+}
+
+.onoffswitch-inner-active:before {
+    content: "Active"
+}
+
+.onoffswitch-inner-active:after {
+    content: "Not Active"
+}
+
+.onoffswitchDisabled:before, .onoffswitchDisabled:after {
+    background-color: #CCCCCC;
+}
+
+.onoffswitch-switch {
+    display: block;
+    width: 20px;
+    margin: 4.5px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 80px;
+    /*border: 2px solid #999999; */
+    border-radius: 20px;
+    transition: all 0.2s ease-in 0s;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+}
+
+.commandButton
+{
+    outline: none;
+    user-select: none;
+    -ms-user-select: none;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    height:29px;
+    /*background-color: #FFF;*/
+    border-radius: 10px;
+    border: solid 1px #CCC;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgba(63, 178, 169, 1);
+}
+
+.commandButton:hover
+{
+    border: 1px solid #DAA520;
+    background-color: rgba(86, 191, 182, 1);
+}
+
+.commandButton:active
+{
+    background-color:#bfdddb;
+}
+
+.commandButton:disabled
+{
+    background-color: rgba(239, 239, 239, 1);
+    color: #008a7e;
+}
+
+.buttonGroup
+{
+    display: flex!important;
+    align-items: center;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    text-align:center;
+}
+
+.buttonGroup button
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #cccccc;
+    border: solid 1px #aaa;
+}
+
+.buttonGroup .selected
+{
+    background-color: rgba(63, 178, 169, 1);
+    border-color: #aaa!important;
+}
+
+.buttonGroup button:not(:first-child)
+{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.buttonGroup button:not(:last-child)
+{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: none;
+}
+
+.windowContent .loginSelect
+{
+    text-align:center;
+    /*width: 50%;*/
+}
+.windowContent .loginSelect select
+{
+    width: 50%;
+    border-radius: 3px;
+    height: 28px;
+    font-size: 16px;
+    border: 1px solid #808080;
+    padding: 3px;
+}
+
+.windowContent .select
+{
+    text-align:center;
+    /*width: 50%;*/
+}
+.windowContent .select select
+{
+    width: 147px;
+    border-radius: 3px;
+    height: 28px;
+    font-size: 16px;
+    border: 1px solid #808080;
+    padding: 3px;
+}
+
+select option
+{
+    font-size: 16px;
+}
+
+select option:first-child
+{
+    font-size: 16px;
+}
+
+.windowContent .loginInput, .windowContent .inputLarge
+{
+    text-align:center;
+}
+.windowContent .loginInput input, .windowContent .inputLarge input
+{
+    width:50%;
+    text-align: center;
+}
+
+.windowContent .checklistTitleRow
+{
+    height: 25px;
+    margin-bottom:-2px;
+    padding-top:3px;
+}
+
+.windowContent .checklistTitle
+{
+    padding-left: 10px;
+}
+
+.windowContent .checklist
+{
+    margin: 5px;
+    /*padding-left: 5px;*/
+    border: 2px solid #bfdddb;
+    /*height: 150px;*/
+    /*max-height: 350px;*/
+    overflow-y: scroll;
+}
+
+.windowContent .checklistItem
+{
+    margin:2px;
+    /*padding-left: 10px;*/
+    /*padding:3px;*/
+    /*padding-left:5px;*/
+    border: 2px solid #bfdddb;
+    color: black;
+    cursor:pointer;
+}
+
+.windowContent .checklistItem input[type='checkbox']
+{
+    vertical-align: middle;
+    margin-right: 10px;
+    width:17px;
+    height:17px;
+    cursor:pointer;
+}
+
+.windowContent .checklistItem:hover
+{
+    /*background: #bfdddb;*/
+    background: #e0f3f1;
+    /*border: 2px solid #DAA520;*/
+    /*border: 2px solid black;*/
+}
+
+.windowContent .checklistItemSelected
+{
+    /*background: #bfdddb;*/
+    background: #e0f3f1;
+    border: 2px solid #008a7e;
+    /*border: 2px solid #DAA520;*/
+}
+
+.windowContent .columnRow
+{
+    display: table;
+    color: #008a7e;
+    /*background-color: #fff;*/
+    margin-top:5px;
+    margin-bottom:5px;
+    /*width:98%;
+    left:1%;*/
+    width:100%;
+    position: relative;
+    /*height: 40px;*/
+}
+
+.windowContent .column
+{
+    display: table-cell;
+    width:50%;
+    /*border: 1px solid red;*/
+    /*height:100px;*/
+    /*width:40%;*/
+}
+
+.windowContent .margin2px
+{
+    margin:2px;
+}
+
+.windowContent .feedTable
+{
+    margin: 4px;
+    border: 2px solid #bfdddb;
+    width: 588px;
+    text-align: center;
+}
+
+.windowContent .feedCellAlternate td
+{
+    background: #eafdfb;
+}
+
+.windowContent thead, .windowContent tbody, .windowContent tr, .windowContent td, .windowContent th
+{
+    display: block;
+}
+
+.windowContent .feedTable tr:hover td
+{
+    background: #e0f3f1;
+    /*background: #bfdddb;*/
+    cursor: pointer;
+}
+
+.windowContent .feedTable thead th
+{
+    border-bottom: 2px solid black;
+}
+
+
+.windowContent .feedTable tbody
+{
+    max-height: 170px;
+    overflow-y: scroll;
+}
+
+.windowContent .feedTable thead
+{
+    overflow-y: scroll;
+}
+
+.windowContent .feedTable tbody td, .windowContent .feedTable thead th
+{
+    width: 24.2%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    float: left;
+}
+
+.windowContent tbody .selected td
+{
+    background: #bfdddb;
+}
+
+.windowContent .feedTable .doseLimitWidth
+{
+    width: 19.2%;
+}
+
+.windowContent .alignLeft
+{
+    text-align: left;
+}
+
+.windowContent .alignRight
+{
+    text-align: right;
+}
+
+.windowContent .loopConfigTable
+{
+    margin: 4px;
+    border: 2px solid #bfdddb;
+    width: 97.8%;
+    text-align: center;
+}
+
+.windowContent .loopConfigTable td
+{
+    /*width: 100%;*/
+    /*padding-top: 3px;*/
+    /*padding-bottom: 3px;*/
+    /*float: left;*/
+    border: 2px solid #bfdddb;
+    margin: 3px;
+}
+
+.windowContent .loopConfigTable .empty
+{
+    height: 18.4px;
+    cursor: default;
+}
+
+.windowContent .loopConfigTable .selected
+{
+    background: #e0f3f1;
+    border: 2px solid #008a7e;
+}
+
+.windowContent .loopConfigTable .empty:hover tr, .windowContent td
+{
+    background: white;
+}
+
+.windowContent .loopConfigSensor
+{
+    font-weight: bold;
+    background: #bfdddb;
+}
+
+.windowContent .loopConfigLabel
+{
+    color: #8d8d8d;
+    background: #dcdcdc;
+}
+
+.windowContent .loopConfigTable .filledSlot
+{
+    cursor: pointer;
+}
+
+.windowContent .loopConfigTable .filledSlot:hover
+{
+    background: #e0f3f1;
+}
+
+.windowContent .loopConfigTable .nextFreeSlot
+{
+    background: #FFFACD;
+    cursor: pointer;
+}
+
+.windowContent .loopConfigTable .nextFreeSlot:hover
+{
+    background: #e0f3f1;
+}
+
+.windowContent .loopConfigTable img
+{
+    height:15px;
+    width:15px;
+}
+
+.windowContent .listItem
+{
+    margin:3px;
+    border: 2px solid #bfdddb;
+    color: black;
+    cursor:pointer;
+    padding-top: 2px;
+    padding-bottom: 1px;
+}
+
+.windowContent .listItem:hover
+{
+    background: #e0f3f1;
+}
+
+.windowContent .listText
+{
+    margin-left: 5px;
+}
+
+.windowContent .listItemOriginal
+{
+    background: #e0f3f1;
+}
+
+.windowContent .listItemSelected
+{
+    /*background: #e0f3f1;*/
+    background: #e0f3f1;
+    border: 2px solid #008a7e;
+}
+
+.windowContent .loopConfigTable .prefix
+{
+    display: inline;
+    float: left;
+    margin-left: 5px;
+    /*font-weight: bold;*/
+    color: black;
+}
+
+.windowContent .loopConfigTable .text
+{
+    display: inline;
+    /*float: left;*/
+}
+
+.windowContent .progressBar
+{
+    padding: 5px;
+    padding-right: 7px;
+}
+
+.windowContent .progressBackground
+{
+    height: 5px;
+    background-color: #BFDDDB;
+    border-radius: 5px;
+}
+.windowContent .progress
+{
+    height: 5px;
+    background-color: #24a68c;
+    border-radius: 5px;
+    width: 1%;
+
+    -webkit-transition: width 0.01s ease-in-out;
+    -moz-transition: width 0.01s ease-in-out;
+    -o-transition: width 0.01s ease-in-out;
+    transition: width 0.01s ease-in-out;
+}
+
+.windowContent .sensorOverviewItem
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-width: 3.3px 3.3px 3.3px 10px;
+    /* border-width: 3.3px; */
+    border-style: solid;
+    height: 55px;
+    /*width: 605px;*/
+    min-height: 0;
+    border-radius: 2px;
+    /*border-radius: 3px;*/
+}
+
+.windowContent .borderRed
+{
+    border-color: red;
+    /*background-color: rgba(255, 230, 230, 1);*/
+    /*background: repeating-linear-gradient(
+        125deg,
+        #FFF,
+        #FFF 20px,
+        rgba(255, 230, 230, 1) 20px,
+        rgba(255, 230, 230, 1) 40px
+    );*/
+}
+
+.windowContent .borderGreen
+{
+    /*border-color: rgba(11, 146, 46, 1);*/
+    border-color: rgba(0, 135, 68, 1);
+    /*background-color: rgba(250, 255, 255, 1);*/
+}
+
+.windowContent .borderYellow
+{
+    /*border-color: #ffd42a;*/
+    border-color: rgba(255, 166, 0, 1);
+    /*background-color: rgba(255, 255, 250, 1);*/
+    /*background: repeating-linear-gradient(
+        125deg,
+        #FFF,
+        #FFF 30px,
+        rgba(255, 235, 198, 1) 30px,
+        rgba(255, 235, 198, 1) 60px
+    );*/
+}
+
+.windowContent .borderGray
+{
+    background-color: white;
+    border-color: lightGray;
+    /*border-color: white;*/
+    /*border-color: rgba(132, 200, 209, 1);*/
+}
+
+.windowContent .borderAppBlue
+{
+    background-color: white;
+    /* border-color: #24a68c; */
+    border-color: #bfdddb;
+    /* border-color: #98deff; */
+    /* border-color: #e0f3f1; */
+    /*border-color: white;*/
+    /*border-color: rgba(132, 200, 209, 1);*/
+}
+
+.windowContent .borderBlue
+{
+    /*border-color: #ffd42a;*/
+    border-color: 	#a8c0fc;
+    /*background-color: rgba(255, 255, 250, 1);*/
+    /*background: repeating-linear-gradient(
+        125deg,
+        #FFF,
+        #FFF 30px,
+        rgba(255, 235, 198, 1) 30px,
+        rgba(255, 235, 198, 1) 60px
+    );*/
+}
+
+/*.windowContent .icon
+{
+    width: 40px;
+}*/
+
+.windowContent .sensorOverviewIcon
+{
+    width: 40px;
+    cursor: pointer;
+}
+
+.windowContent .sensorOverviewIcon img
+{
+    width:30px;
+    height:30px;
+    padding: 5px;
+    margin-bottom: -3px;
+}
+
+.windowContent .sensorOverviewText
+{
+    cursor: pointer;
+    /*width:50px;*/
+    padding: 5px;
+    /*width: 80px;*/
+    text-align: left;
+    width:30%;
+    /*border: 1px solid blue;*/
+}
+
+.windowContent .sensorOverviewValue
+{
+    cursor: pointer;
+    /*width:50px;*/
+    padding: 5px;
+    /*width: 20px;*/
+    text-align: right;
+    width:20%;
+    font-size: 1.1em;
+    font-weight: bold;
+    /*border: 1px solid red;*/
+}
+
+.windowContent .sensorOverviewInput
+{
+    /*width:50px;*/
+    width:13%;
+}
+
+.windowContent .sensorOverviewUnit
+{
+    width: 16%;
+    padding-left: 10px;
+    /*padding: 10px;*/
+}
+
+.windowContent .sensorOverviewButtons
+{
+  width: 14%;
+    /*width:50px;*/
+    /*border: 1px solid red;*/
+    /*border-spacing: 30px 0px;*/
+    /*border-collapse: separate;*/
+}
+
+.windowContent .actuatorOverviewItem
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    /*border-width: 2px 2px 2px 10px;*/
+    border-width: 3.3px;
+    border-style: solid;
+    height: 55px;
+    border-radius: 2px;
+}
+
+.windowContent .actuatorOverviewValue
+{
+    cursor: pointer;
+    /*width:50px;*/
+    padding: 5px;
+    /*width: 20px;*/
+    text-align: right;
+    width:20%;
+    font-size: 1.1em;
+    font-weight: bold;
+    /*border: 1px solid red;*/
+}
+
+.windowContent .actuatorOverviewDoseValue
+{
+    cursor: pointer;
+    /*width:50px;*/
+    padding: 5px;
+    /*width: 20px;*/
+    text-align: right;
+    width:22%;
+    font-size: 1.1em;
+    font-weight: bold;
+    /*border: 1px solid red;*/
+}
+
+.windowContent .actuatorOverviewIcon
+{
+    width: 40px;
+    cursor: pointer;
+}
+
+.windowContent .actuatorOverviewIcon img
+{
+    width:30px;
+    height:30px;
+    padding: 5px;
+    margin-bottom: -3px;
+}
+
+.windowContent .actuatorOverviewText
+{
+    cursor: pointer;
+    /*width:50px;*/
+    padding: 5px;
+    /*width: 80px;*/
+    text-align: left;
+    width:28%;
+    /*border: 1px solid blue;*/
+}
+
+.windowContent .actuatorOverviewUnit
+{
+    width:12%;
+    padding-left: 1px;
+
+    /*padding: 10px;*/
+}
+
+.windowContent .start
+{
+    background-color: white;
+    /*background-color: inherit;*/
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border-style: solid;
+    border-width: 10px 0px 10px 20px;
+    /*border-color: transparent transparent transparent #008a7e;*/
+    /*border-color: transparent transparent transparent #bfdddb;*/
+    /*#88d2cd*/
+    border-color: transparent transparent transparent #88d2cd;
+    /*padding: 0px 0px 0px 0px;*/
+    margin-right: 0px;
+}
+
+.windowContent .start:hover
+{
+    cursor: pointer;
+    border-color: transparent transparent transparent rgba(86, 191, 182, 1);
+}
+
+.windowContent .start:active
+{
+    border-color: transparent transparent transparent #008a7e;
+}
+
+.windowContent .start:disabled
+{
+    border-color: transparent transparent transparent lightGray;
+    cursor:default;
+}
+
+.windowContent .start:focus, .windowContent .pause:focus, .windowContent .stop:focus
+{
+    outline:0;
+}
+
+.windowContent .pause
+{
+    background-color: white;
+    /*background-color: inherit;*/
+    box-sizing:border-box;
+    width: 20px;
+    height: 20px;
+    border-style: double;
+    border-width: 0px 0px 0px 20px;
+    border-color:#88d2cd;
+    /*padding: 0px 0px 0px 0px;*/
+    margin-right: 0px;
+}
+
+.windowContent .stop
+{
+    background-color: white;
+    /*background-color: inherit;*/
+    box-sizing:border-box;
+    width: 20px;
+    height: 20px;
+    border-style: solid;
+    border-width: 0px 0px 0px 20px;
+    border-color:#88d2cd;
+    margin-right: 0px;
+    margin-left: 9px;
+    /*padding: 0px 0px 0px 0px;*/
+}
+
+.windowContent .pause:hover, .stop:hover
+{
+    cursor: pointer;
+    border-color: rgba(86, 191, 182, 1);
+}
+
+.windowContent .pause:active, .stop:active
+{
+    border-color: #008a7e;
+}
+
+.windowContent .pause:disabled
+{
+    border-color: lightGray;
+    cursor:default;
+}
+.windowContent .stop:disabled
+{
+    border-color: lightGray;
+    cursor:default;
+}
+
+.windowContent .hidden
+{
+    display: none;
+}
+
+.windowContent .cursorPointer
+{
+    cursor: pointer;
+}
+
+.windowContent .sensorOverviewInput input[type='text']
+{
+    font-size: 1.1em;
+}
+
+.windowContent .factCalTable,
+.windowContent .manualIOTable
+{
+    margin: 4px;
+    border: 2px solid #bfdddb;
+    width: 620px;
+    text-align: center;
+    display: table-cell;
+    /*verticle-align: center !important;*/
+}
+
+.windowContent .factCalTable thead, .windowContent .factCalTable tbody,
+.windowContent .manualIOTable thead, .windowContent .manualIOTable tbody
+{
+    display: block;
+}
+
+.windowContent .factCalTable tr, .windowContent .factCalTable td, .windowContent .factCalTable th
+{
+    /*display: table-cell;*/
+    /*padding-top:10%;*/
+}
+
+.windowContent .factCellAlternate td
+{
+    background: #eafdfb;
+}
+
+.windowContent .factCalTable tr:hover td
+{
+    background: #e0f3f1;
+    /*background: #bfdddb;*/
+    /*cursor: pointer;*/
+}
+
+
+.windowContent .factCalTable thead th,
+.windowContent .manualIOTable thead th
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-bottom: 2px solid black;
+    border-right: 1px solid rgb(172, 172, 172);
+    verticle-align: center;
+}
+
+.windowContent .factCalTable thead th:first-child, .windowContent .factCalTable tbody td:first-child
+{
+    width:25.6%;
+    width:25.6%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-right: 2px solid black;
+    /*color: black;*/
+    /*font-weight: bold;*/
+    /*border-right: 1px solid rgb(172, 172, 172);*/
+}
+
+.windowContent .manualIOTable thead th:first-child, .windowContent .manualIOTable tbody td:first-child
+{
+    width:13.5%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-right: 2px solid black;
+}
+
+.windowContent .factCalTable thead th:last-child,
+.windowContent .manualIOTable thead th:last-child
+{
+    border-right:0px;
+}
+
+
+.windowContent .factCalTable tbody,
+.windowContent .manualIOTable tbody
+{
+    max-height: 170px;
+    /*overflow-y: scroll;*/
+}
+
+.windowContent .factCalTable thead,
+.windowContent .manualIOTable thead
+{
+    overflow-y: hidden;
+}
+
+.windowContent .factCalTable tbody td,  .windowContent .factCalTable thead th
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    text-align: center;
+    width: 18.6%;
+    /* width: 20%; */
+    height: 27px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    float: left;
+
+}
+
+.windowContent .manualIOTable tbody td,  .windowContent .manualIOTable thead th
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    /* display:table-cell; */
+    text-align: center;
+    width: 10.8%;
+    height: 27px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    float: left;
+}
+
+.windowContent .manualIOTable tbody td:first-child:hover
+{
+    /* background: white; */
+    cursor: default;
+}
+
+.windowContent .manualIOTable tbody td:hover
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    /* background: #eafdfb; */
+    background: #e0f3f1;
+    cursor: pointer;
+}
+
+.windowContent .manualIOTable tbody .cellSelected
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    background: #e0f3f1;
+    border: 2px solid #008a7e;
+}
+
+
+.windowContent .factCellAlternate td
+{
+    background: #eafdfb;
+}
+
+.windowContent .textRed
+{
+    color: red;
+}
+
+.windowContent .buttonGroupTextStepper
+{
+    padding: 5px;
+    width: 23%;
+    /*border: 1px solid red;*/
+}
+
+.windowContent .buttonGroupStepper
+{
+    width:200px;
+    /*border: 1px solid red;*/
+}
+
+
+.windowContent .inputFieldDecimalList
+{
+    width:40px;
+    tex-align: center;
+    /*float: right;*/
+    padding-right: 10px;
+
+}
+
+.windowContent .listTextDecimalList
+{
+    margin-left: 5px;
+    padding-left: 5px;
+    width: 200px;
+    /*border: 1px solid red;*/
+}
+
+.windowContent .listFieldDecimalList input[type='text']
+{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.windowContent .logView
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 2px solid #bfdddb;
+
+    max-height: 350px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /*display: table;*/
+    color: #008a7e;
+    background-color: #fff;
+    margin-top:5px;
+    margin-bottom:5px;
+    width:100%;
+    /*position: relative;*/
+}
+
+.sensorOverviewSetpoint
+{
+    display: none !important;
+    border-color: white;
+}
+
+.windowContent .outputOverviewItem
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 2px solid #bfdddb;
+    height: auto;
+    /* display: table-cell; */
+
+    /* background-color: #e0f3f1; */
+    border-radius: 2px;
+}
+
+.windowContent .outputOverviewItem .overviewRow
+{
+    display: table;
+    color: #008a7e;
+    background-color: #fff;
+    width: 100%;
+    position: relative;
+    height: 30px;
+}
+
+.windowContent .outputOverviewItem .overviewRow:hover .sensor
+{
+    background: #effffc!important;
+}
+
+.windowContent .outputOverviewItem .emptySensor
+{
+    width: 12%;
+}
+
+.windowContent .outputOverviewItem .emptyActuator
+{
+    /* background: #e0f3f1; */
+    width: 25%;
+}
+
+.windowContent .outputOverviewItem .sensor
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid #bfdddb;
+    border-width: 1px 0px 1px 0px;
+    background: #effffc;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.windowContent .outputOverviewItem .actuator:hover
+{
+    font-weight: bold;
+    /* background:white; */
+}
+
+.windowContent .outputOverviewItem .sensorName
+{
+    /* font-weight: bold; */
+    width: 15%;
+    text-align: left;
+}
+
+.windowContent .outputOverviewItem .sensorImage
+{
+    width: 5%;
+    text-align: center;
+}
+.windowContent .outputOverviewItem .sensorImage img
+{
+    height: 20px;
+    width:20px;
+}
+
+.windowContent .outputOverviewItem .actuator
+{
+    background:white;
+    cursor:pointer;
+}
+
+.windowContent .outputOverviewItem .actuatorName
+{
+    width: 15%;
+    cursor:pointer;
+}
+
+.windowContent .outputOverviewItem .actuator img
+{
+    height: 15px;
+    width: 15px;
+}
+
+.windowContent .outputOverviewItem .interlocked
+{
+    color: red;
+}
+
+.windowContent .outputOverviewItem .output
+{
+    width: 23%;
+    text-align: right;
+    padding-right: 5px;
+    cursor:pointer;
+    /* background: lightgreen; */
+}
+
+.windowContent .outputOverviewItem .outputUnit
+{
+    cursor:pointer;
+    width: 10%;
+    /* padding-left: 5px; */
+}
+
+.windowContent .outputOverviewItem .borderTop
+{
+    /* border: 0px solid #bfdddb; */
+    border-top: 1px solid #bfdddb;
+}
+
+.windowContent .outputOverviewItem .borderBottom
+{
+    /* border: 0px solid #bfdddb; */
+    border-bottom: 1px solid #bfdddb;
+}
+
+.windowContent .chart
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    /* width: 100%;
+    height: 370px; */
+    border: 2px solid #bfdddb;
+}
+
+.windowContent .scrollArea
+{
+    /* margin: 5px; */
+    padding-left: 5px;
+    padding-right: 5px;
+    /*padding-left: 5px;*/
+    border: 2px solid #bfdddb;
+    /*height: 150px;*/
+    /*max-height: 350px;*/
+    overflow-y: scroll;
+}
+
+div:focus
+{
+    outline-width: 0px;
+}

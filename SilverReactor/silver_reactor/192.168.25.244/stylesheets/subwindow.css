@@ -1,0 +1,78 @@
+.subWindow
+{
+    margin: 10px;
+    max-height:500px;
+    overflow-y:auto;
+}
+
+.subWindowTabs
+{
+    width:631px;
+}
+
+.subWindowTabs .tab
+{
+    background-color: rgb(239, 239, 239);
+    width: 117px;
+    text-align: center;
+    height: 26px;
+    display: inline;
+    float: left;
+    margin-right:3px;
+    padding-top: 8px;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #CCC;
+    margin-bottom: 4px;
+    font-size: 15px;
+    user-select: none;
+}
+
+.subWindowTabs .tab:hover
+{
+    background: #bfdddb;
+}
+
+.subWindowTabs .navigationTabRight, .subWindowTabs .navigationTabLeft
+{
+    width: 45px;
+}
+.subWindowTabs .navigationTabRight
+{
+
+    margin-right: 0px;
+}
+
+.subWindowTabs .navigationTab:hover
+{
+    background: #bfdddb;
+}
+
+.windowTabs .navigationTab .navIcon
+{
+    height: 20px;
+    width: 20px;
+}
+
+.subWindowTabs .selected
+{
+    background: #bfdddb;
+    cursor: pointer;
+    height: 31px;
+    border-top: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.subWindowContent
+{
+    /*height: 410px;*/
+    max-height:450px;
+    overflow-y: auto;
+    border: 2px solid #bfdddb;
+    padding-left: 5px;
+    padding-right: 5px;
+}

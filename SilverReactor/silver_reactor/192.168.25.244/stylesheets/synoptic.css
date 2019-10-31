@@ -1,0 +1,75 @@
+.synoptic
+{
+    /*width:100%;
+    height: 100%;*/
+    margin-top:200px;
+}
+
+.synoptic .sensorCell
+{
+    /*background: blue;*/
+    height: 608px;
+    width: 315px;
+    /*padding-top:50px;*/
+    vertical-align: middle;
+}
+
+.synoptic .reactorCell
+{
+    display: flex;
+    align-items: center;
+    padding-top:50px;
+    height: 608px;
+    width: 315px;
+}
+
+.synopticItem
+{
+    margin-top: 10px;
+
+}
+
+.synopticItem .name
+{
+    width: 315px;
+    height:24px;
+    vertical-align: middle;
+    color: #006a61;
+        font-size: 18px;
+    /*background: red;*/
+}
+
+.synopticItem .icon
+{
+    /*height:40px;*/
+    /*width: 315px;*/
+    vertical-align: middle;
+    /*color: #006a61;*/
+    /*background: red;*/
+}
+
+.synopticItem img
+{
+    padding-right: 10px;
+    width:24px;
+    height:24px;
+}
+
+.synopticItem .value
+{
+    font-size: 1.2em;
+    padding-left: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+    width: 315px;
+    height: 40px;
+    border-top: 2px solid #24a68c;
+    border-bottom: 2px solid #24a68c;
+    border-left: 2px solid #24a68c;
+    border-radius: 15px 0px 0px 15px;
+    background: white;
+    background: -webkit-linear-gradient(left, rgba(36, 166, 140, 0.2) , white);
+    background: -o-linear-gradient(right, rgba(36, 166, 140, 0.2) , white);
+    background: -moz-linear-gradient(right, rgba(36, 166, 140, 0.2) , white);
+    background: linear-gradient(to right, rgba(36, 166, 140, 0.2) , white);
+}

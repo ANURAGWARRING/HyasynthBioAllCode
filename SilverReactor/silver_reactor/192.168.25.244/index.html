@@ -1,0 +1,256 @@
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"> -->
+<!DOCTYPE html>
+
+<!-- Mirrored from 192.168.25.244/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 May 2019 22:26:14 GMT -->
+<head>
+    <title>Applikon Biotechnology</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <link type="text/css" href="stylesheets/jquery-ui.css" rel="stylesheet" />
+    <link type="text/css" href="stylesheets/main.css" rel="stylesheet" />
+    <link type="text/css" href="stylesheets/windowitems.css" rel="stylesheet" />
+    <link type="text/css" href="stylesheets/mainwindow.css" rel="stylesheet" />
+    <link type="text/css" href="stylesheets/subwindow.css" rel="stylesheet" />
+    <link type="text/css" href="stylesheets/rightpanel.css" rel="stylesheet" />
+    <link type="text/css" href="stylesheets/navigation.css" rel="stylesheet" />
+    <link type="text/css" href="stylesheets/loader.css" rel="stylesheet" />
+    <link type="text/css" href="stylesheets/synoptic.css" rel="stylesheet" />
+    <link type="text/css" href="stylesheets/timepicker.css" rel="stylesheet" />
+    <link type="text/css" href="stylesheets/alarmpanel.css" rel="stylesheet" />
+    <link type="text/css" href="stylesheets/toppanel.css" rel="stylesheet" />
+    <link type="text/css" href="stylesheets/infopanel.css" rel="stylesheet" />
+    <!-- <link type="text/css" href="stylesheets/multiplebioreactors.css" rel="stylesheet" /> -->
+
+
+    <script type="text/javascript" src="libs/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="libs/jquery-ui.js"></script>
+    <script type="text/javascript" src="libs/timepicker.js"></script>
+    <script type="text/javascript" src="libs/Chart.min.js"></script>
+
+    <script type="text/javascript" src="Scripts/myversion.js"></script>
+    <script type="text/javascript" src="Scripts/controlsocket.js"></script>
+
+    <script type="text/javascript" src="Scripts/data/data.js"></script>
+    <script type="text/javascript" src="Scripts/data/datatools.js"></script>
+    <script type="text/javascript" src="Scripts/data/systemdata.js"></script>
+    <script type="text/javascript" src="Scripts/data/sensordata.js"></script>
+    <script type="text/javascript" src="Scripts/data/actuatordata.js"></script>
+    <script type="text/javascript" src="Scripts/data/controldata.js"></script>
+    <script type="text/javascript" src="Scripts/data/lookup.js"></script>
+
+    <!-- Must come after the data scripts -->
+    <script type="text/javascript" src="Scripts/navigationmanager.js"></script>
+    <script type="text/javascript" src="Scripts/espfmanager.js"></script>
+    <script type="text/javascript" src="Scripts/updatemanager.js"></script>
+    <script type="text/javascript" src="Scripts/toppanelmanager.js"></script>
+    <script type="text/javascript" src="Scripts/overlaymanager.js"></script>
+    <script type="text/javascript" src="Scripts/alarmmanager.js"></script>
+    <script type="text/javascript" src="Scripts/usermanager.js"></script>
+    <script type="text/javascript" src="Scripts/imagemanager.js"></script>
+
+    <script type="text/javascript" src="Scripts/rightpanel/rightpanelwindow.js"></script>
+    <script async type="text/javascript" src="Scripts/rightpanel/rightpaneloutput.js"></script>
+    <script type="text/javascript" src="Scripts/rightpanel/rightpanelsensors.js"></script>
+    <script async type="text/javascript" src="Scripts/rightpanel/rightpanelactuators.js"></script>
+
+    <script type="text/javascript" src="Scripts/windows/windowmanager.js"></script>
+    <script type="text/javascript" src="Scripts/windows/windowwithtabs.js"></script>
+    <script type="text/javascript" src="Scripts/windows/subwindow.js"></script>
+    <script type="text/javascript" src="Scripts/windows/windowitems.js"></script>
+    <script type="text/javascript" src="Scripts/windows/windowtools.js"></script>
+    <script type="text/javascript" src="Scripts/windows/synoptic.js"></script>
+    <script type="text/javascript" src="Scripts/windows/login.js"></script>
+
+    <script async type="text/javascript" src="Scripts/windows/networksettings.js"></script>
+
+    <script type="text/javascript" src="Scripts/main.js"></script>
+<!--
+    <script async type="text/javascript" src="Scripts/windows/loopconfiguration.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/manualcontrol.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/networksettings.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/dosesettings.js"></script>
+
+
+    <script async type="text/javascript" src="Scripts/windows/calibration/values/standard.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/calibration/values/presensph.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/calibration/values/hamiltonph.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/calibration/methods/standard.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/calibration/methods/hamiltonph.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/calibration/methods/hamiltonpo2.js"></script>
+
+    <script async type="text/javascript" src="Scripts/windows/sensorsettings/standard/standard.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/sensorsettings/custom/custom.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/sensorsettings/standard/do.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/sensorsettings/standard/level.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/sensorsettings/standard/analog.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/sensorsettings/standard/presens.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/sensorsettings/standard/hamiltonpo2.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/sensorsettings/standard/lumisens.js"></script>
+
+    <script async type="text/javascript" src="Scripts/windows/sensorsettings/custom/lumisens.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/sensorsettings/custom/hamiltonpo2.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/sensorsettings/custom/hamiltonph.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/sensorsettings/custom/buglab.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/sensorsettings/custom/balance.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/sensorsettings/custom/polestar.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/sensorsettings/custom/presensph.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/sensorsettings/custom/presensdo.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/sensorsettings/custom/aber.js"></script>
+
+    <script async type="text/javascript" src="Scripts/windows/limits/limitsprocessstandard.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/limits/limitsinterlocksstandard.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/limits/limitsactuatorsstandard.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/limits/limitsdigitalstandard.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/limits/limitscascade.js"></script>
+
+    <script async type="text/javascript" src="Scripts/windows/controllersetup/controllersetupstandard.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/controllersetup/controllerfeedprofile.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/controllersetup/controllerfeedsettings.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/controllersetup/controllerfeedcalibration.js"></script>
+
+    <script async type="text/javascript" src="Scripts/windows/systemconfiguration/bioreactorselection.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/systemconfiguration/controlloopselection.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/systemconfiguration/synopticconfiguration.js"></script>
+
+    <script async type="text/javascript" src="Scripts/windows/settings/specificpreferences.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/settings/installedlicenses.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/settings/filehandling.js"></script>
+
+    <script async type="text/javascript" src="Scripts/windows/actuatorsettings/actuatorsettingsstandard.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/actuatorsettings/actuatorsettingscustom.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/actuatorsettings/customstirrersettings.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/actuatorsettings/custombrushlesssettings.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/actuatorsettings/customtcsettings.js"></script>
+
+    <script async type="text/javascript" src="Scripts/windows/tgf/alarmsettings.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/tgf/carrierselection.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/tgf/carrierloopconfiguration.js"></script>
+
+    <script async type="text/javascript" src="Scripts/windows/service/filehandlingservice.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/service/factorycalibration.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/service/installactuators.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/service/installsensors.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/service/installmfcs.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/service/servicesettings.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/service/servicememory.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/service/debug.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/service/serviceerrorlog.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/service/servicedecimals.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/service/serviceoem.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/service/servicepower.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/service/servicerotation.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/service/eeprom.js"></script>
+    <script async type="text/javascript" src="Scripts/windows/service/misc.js"></script>
+
+    <script async type="text/javascript" src="Scripts/windows/trend.js"></script>
+     -->
+
+
+</head>
+<body>
+    <div class="bodyWrapper">
+        <div class="header themeColor" id="topBar">
+            <div id="topNavigationPanel">
+
+            </div>
+
+            <div class="systemNamePanel">
+                <input id="systemName" value="Applikon Biotechnology" spellcheck="false" class="systemName themeColor" maxlength="22"  disabled="disabled"/>
+            </div>
+
+            <div id="innoculationTimerPanel">
+                <div class="alignMiddle">
+                    <img src="images/inoctimer.png"/>
+                </div>
+                <div class="alignMiddle">
+                    <button class='start' disabled="disabled"></button>
+                </div>
+                 <div id="innoculationTimer" class="alignMiddle">
+                    00:00:00
+                </div>
+                <div class="alignMiddle">
+                    <button class='pause' disabled="disabled"></button>
+                </div>
+                <div class="alignMiddle">
+                    <button class="reset" disabled="disabled"></button>
+                </div>
+            </div>
+
+            <div id="topUpdatePanel">
+
+            </div>
+
+            <div class="info">
+                <img src="images/deviceinfo.png" alt="Device Info" />
+            </div>
+        </div>
+
+        <div class="mainWrapper tableMain">
+            <div class="tableRow mainWrapper">
+                <div class="leftPanel mainWrapper tableCell themeColor">
+                    <div id="leftPanelTop">
+                    </div>
+                    <div id="leftPanelBottom">
+                    </div>
+                </div>
+
+                <div class="mainPanelWrapper mainWrapper tableCell">
+                    <div id="mainPanel" class="window">
+                    </div>
+                </div>
+
+                <div id="rightPanelWindow" class="rightPanelWrapper mainWrapper tableCell">
+                </div>
+            </div>
+        </div>
+
+        <div class="footerWrapper tableMain">
+            <div class="tableRow">
+                <div class="footer footerWrapper tableCell themeColor ">
+                    <div class="tableRow">
+                        <div id="userMessage">
+                            Welcome
+                        </div>
+
+                        <div id="versionWarning">
+                            Current version of website is not supported with version of controller software!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footerLogo footerWrapper tableCell rightPanelWrapper">
+                    <div class="footerLogoImage">
+                        <a href="https://www.applikon-biotechnology.com/" target="_blank">
+                            <img alt="Applikon Biotechnology" src="images/Logo.png"></img>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="espfOverlay">
+        <div class="card windowContent">
+
+        </div>
+    </div>
+    <div id="overlay">
+        <div class="card windowContent">
+
+        </div>
+    </div>
+
+    <div id="alarmPanel" draggable="true" class="card windowContent">
+
+    </div>
+
+
+</body>
+
+
+<!-- Mirrored from 192.168.25.244/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 May 2019 22:49:11 GMT -->
+</html>

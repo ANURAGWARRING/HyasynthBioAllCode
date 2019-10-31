@@ -1,0 +1,87 @@
+.infoPanel
+{
+    position: fixed;
+    top: 20vh;
+    left: 50%;
+    z-index: 1;
+    width: 500px;
+    margin: 0px 0px 0px -250px;
+    display:none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    max-height:none!important;
+
+    /* border-color: rgba(255, 166, 0, 1); */
+}
+
+.infoPanel .title
+{
+    font-size:larger;
+    font-weight:bold;
+
+    background: #e0f3f1;
+    /*color: red;*/
+}
+
+.infoPanel .button
+{
+    background: #e0f3f1;
+}
+
+.infoPanel .frame .button
+{
+    background: #fff;
+}
+
+.infoPanel .frame
+{
+    max-height:none!important;
+    /*width: 480px;*/
+    width: 487px;
+    max-height: 400px;
+    padding-left: 4px;
+    padding-right: 4px;
+    /*padding: 4px;*/
+    /*box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;*/
+    /*margin: 5px;*/
+    margin-bottom: 4px;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+.infoPanel .messageLeft
+{
+    width: 63%;
+}
+
+.infoPanel .acceptButtons
+{
+    /* border: 0px; */
+    background: #e0f3f1;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.infoPanel .acceptButtons img
+{
+    height: 50px;
+    width: 50px;
+    display: inline;
+    /* float: right; */
+    border: 2px solid #bfdddb;
+    background: white;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.infoPanel .acceptButtons img:hover
+{
+    border: 2px solid #DAA520;
+}
+
+.infoPanel .acceptButtons img:active
+{
+    border: 2px solid #18a186;
+}

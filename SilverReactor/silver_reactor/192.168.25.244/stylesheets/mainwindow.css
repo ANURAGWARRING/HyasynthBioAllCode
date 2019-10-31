@@ -1,0 +1,190 @@
+.window
+{
+    position: relative;
+    width: 80%;
+    height: 608px;
+    left: 10%;
+    top: 5%;
+}
+
+.windowTitle
+{
+
+    height: 40px;
+    color: #008a7e;
+    /*width: 631px;*/
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.windowTitleBar
+{
+    width: 631px;
+    color: #008a7e;
+    vertical-align: middle;
+    height:40px;
+}
+
+.windowTitleBar .icon
+{
+    /*display: inline;*/
+    /*height:30px;*/
+    /*width:30px;*/
+    /*content:url("images/green/sensor.png");*/
+}
+.windowTitleBar .title
+{
+    font-size: 18px;
+    vertical-align: middle;
+}
+.windowTitleBar .icon img
+{
+    height: 30px;
+    width: 30px;
+    /*padding: 10px;*/
+    padding-right: 10px;
+}
+
+.windowTabs
+{
+    /*height: 50px;*/
+    width: 100%;
+}
+
+.windowTabs .tab
+{
+    display: inline;
+    height: 55px;
+    width: 63px;
+    float: left;
+    text-align: center;
+    user-select: none;
+    font-size:10px;
+    color: #008a7e;
+    background: #e0f3f1;
+    margin-right: 5px;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #CCC;
+    margin-bottom: 3px;
+}
+
+.windowTabs .tab:hover
+{
+    background: #bfdddb;
+}
+
+.windowTabs .tab .icon
+{
+    margin-top: 7px;
+}
+
+.windowTabs .tab .navIcon
+{
+    margin-top: 12px;
+}
+
+.windowTabs .tab img
+{
+    width: 30px;
+    height: 30px;
+}
+
+.windowTabs .selected
+{
+    background: #008a7efa;
+    background: #bfdddb;
+    cursor: pointer;
+    height: 59px;
+    border-top: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.windowContent
+{
+    width: 631px;
+    border: 2px solid #bfdddb;
+    background: #e0f3f1;
+    padding-left: 5px;
+    padding-right: 4px;
+    max-height: 530px;
+    /*height:530px;*/
+    overflow-y: auto;
+    overflow-x:hidden;
+    /*border-bottom: 0px;*/
+}
+
+#windowContent
+{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    /*box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/
+    /*box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.16), 2px 2px 5px 0px rgba(0,0,0,0.16);*/
+    /*box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.16);*/
+}
+
+.acceptRow
+{
+    display: table-cell;
+    height: 58px;
+    width: 116px;
+    /*width: 631px;*/
+    float: right;
+    border: 2px solid #bfdddb;
+    background: #e0f3f1;
+    border-top: 0px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    /* user-drag: none;
+    -webkit-user-drag: none; */
+    /* user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none; */
+}
+
+.acceptRow img
+{
+    height: 50px;
+    width: 50px;
+    display: inline;
+    float: right;
+    border: 2px solid #bfdddb;
+    background: white;
+    margin: 2px;
+    cursor: pointer;
+    user-drag: none;
+    -ms-user-drag: none;
+    -webkit-user-drag: none;
+
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none; 
+}
+
+.acceptRow img:hover
+{
+    border: 2px solid #DAA520;
+}
+
+.acceptRow img:active
+{
+    border: 2px solid #18a186;
+}
+
+/*.visible
+{
+    display = "";
+}*/
+
+.invisible
+{
+    /*display: none;*/
+    visibility: hidden;
+}
+
+.displayNone
+{
+    display: none;
+}
