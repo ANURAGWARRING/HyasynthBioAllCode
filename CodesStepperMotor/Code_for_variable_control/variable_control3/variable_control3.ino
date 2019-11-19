@@ -1,4 +1,3 @@
-
 #include <Adafruit_MotorShield.h> //All the libraries
 #include<AccelStepper.h>
 
@@ -46,10 +45,9 @@ void GreatMotor()
 {
   for (;;){
   Astepper1.move(-2000000000000);                                
-  while (Astepper1.currentPosition()%10 != 0)                             
+  while (Astepper1.currentPosition()%20 != 0)                             
     Astepper1.run();
-     if(millis() > time_now + period){
-        time_now = millis();
+     delay(10000);
      Astepper1.stop(); // Stop as fast as possible: sets new target
   
         
@@ -58,12 +56,4 @@ void GreatMotor()
   Astepper1.runToPosition(); 
    }
   }
-  }
 
-
-
-
- 
-
-  
-  
