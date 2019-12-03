@@ -44,14 +44,14 @@ void loop()
 void GreatMotor()
 {
   for (int i=0;i<9;i++)
-  {Astepper1.move(20+(20*i));                                
+  {Astepper1.move((20+(20*i)));                                
                                
     Astepper1.runToPosition();
      delay(10000);
      Astepper1.stop(); // Stop as fast as possible: sets new target
   
         
-     Astepper1.move(200-(20+(20*i)));                                
+     Astepper1.move(-(200+(20+(20*i))));                                
                                
     Astepper1.runToPosition();
      delay(10000);
