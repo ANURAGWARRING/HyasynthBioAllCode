@@ -112,7 +112,7 @@ for i in range(5):
 val = input("what should be the name of file: ")
 print(val)
 
-wb.save(filename =  'val')
+wb.save(filename =  val)
 
 
 
