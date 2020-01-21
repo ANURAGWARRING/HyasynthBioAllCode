@@ -1,0 +1,7 @@
+CREATE DATABASE dbname; //Create database
+\c dbname; //enter the db
+create schema sname;
+create table sname.tablename(col1 char(20),col2 int);
+\dt //info about the table
+insert into sname.tablename(value1,10); 
+select * from sname.tablenamevalues;
